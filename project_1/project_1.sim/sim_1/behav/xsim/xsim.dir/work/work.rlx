@@ -1,0 +1,17 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/G/OneDrive/2021ss/fpga2021ss/L5/SPI_STUDENT/SPI_STUDENT/SPI_EMULATOR.vhd,1621521278,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module_tb_200MHz.vhd,,,spi_emulator,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/L5/SPI_STUDENT/SPI_STUDENT/SPI_MASTER.vhd,1625149577,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd,,,spi_master,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/L5/SPI_STUDENT/SPI_STUDENT/lfsr.vhd,1513856046,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L5/SPI_STUDENT/SPI_STUDENT/signal_generator.vhd,,,lfsr,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/L5/SPI_STUDENT/SPI_STUDENT/signal_generator.vhd,1621521281,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L5/SPI_STUDENT/SPI_STUDENT/SPI_EMULATOR.vhd,,,signal_generator,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd,1629818653,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module_tb_200MHz.vhd,,,top_module,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module_tb_200MHz.vhd,1624544032,vhdl,,,,testbench,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/L9/pedestal_calc.vhd,1626684339,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd,,,pedestal_calc,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/project_1/project_1.srcs/sources_1/ip/ila_selection/sim/ila_selection.vhd,1626721866,vhdl,,,,ila_selection,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/project_1/project_1.srcs/sources_1/ip/ila_spi/sim/ila_spi.vhd,1623945826,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd,,,ila_spi,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/project_1/project_1.srcs/sources_1/new/Pedestal_subtraction.vhd,1626773226,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd,,,pedestal_subtraction,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/project_1/project_1.srcs/sources_1/new/Signal_selection.vhd,1629818226,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd,,,signal_selection,,,,,,,,
+D:/G/OneDrive/2021ss/fpga2021ss/project_1/project_1.srcs/sources_1/new/signal_detection.vhd,1626860882,vhdl,D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd,,,signal_detection,,,,,,,,

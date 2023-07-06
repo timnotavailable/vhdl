@@ -1,0 +1,131 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 946074b9a8634727a25bf9f04756b685 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L work -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav work.testbench work.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module work.glbl
+Compiling architecture behavioral of entity work.lfsr [\lfsr(seed="00101111")\]
+Compiling architecture behavioral of entity work.lfsr [lfsr_default]
+Compiling architecture behavioral of entity work.signal_generator [\signal_generator(seed_period="0...]
+Compiling architecture behavioral of entity work.SPI_EMULATOR [\SPI_EMULATOR(seed_period="00101...]
+Compiling architecture ibufds_v of entity unisim.IBUFDS [\IBUFDS(1,9)(1,5)(1,1)(1,4)(1,7)...]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkin1_period=5.0,cl...]
+Compiling architecture structure of entity xil_defaultlib.MMCM_MMCM_clk_wiz [mmcm_mmcm_clk_wiz_default]
+Compiling architecture structure of entity xil_defaultlib.MMCM [mmcm_default]
+Compiling architecture behavioral of entity work.SPI_MASTER [\SPI_MASTER(clkdiv=5)\]
+Compiling architecture implementation of entity work.pedestal_calc [\pedestal_calc(nbits=16)\]
+Compiling architecture behavioral of entity work.Pedestal_subtraction [pedestal_subtraction_default]
+Compiling architecture behavioral of entity work.signal_detection [signal_detection_default]
+Compiling architecture behavioral of entity work.Signal_selection [signal_selection_default]
+Compiling architecture ila_spi_arch of entity work.ila_spi [ila_spi_default]
+Compiling architecture ila_selection_arch of entity work.ila_selection [ila_selection_default]
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10010000000010010000...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0110100110010110")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10010110")(0,7)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0110")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_xpm_cdc_gray [cdc_fifo_xpm_cdc_gray_default]
+Compiling architecture structure of entity xil_defaultlib.\CDC_FIFO_xpm_cdc_gray__2\ [\CDC_FIFO_xpm_cdc_gray__2_defaul...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_clk_x_pntrs [cdc_fifo_clk_x_pntrs_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11101111100000001110...]
+Compiling architecture fdpe_v of entity unisim.FDPE [fdpe_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1011101000100010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000011011111")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0100010000000100")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10101110")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0010000011111111")(0...]
+Compiling architecture fdce_v of entity unisim.FDCE [fdce_default]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000110111110000...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_rd_fwft [cdc_fifo_rd_fwft_default]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_rd_status_flags_as [cdc_fifo_rd_status_flags_as_defa...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01111000")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111110000000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111100010001000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1001000000001001")(0...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_rd_bin_cntr [cdc_fifo_rd_bin_cntr_default]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_rd_logic [cdc_fifo_rd_logic_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0010")(0,3)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0100000000000100")(0...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_wr_status_flags_as [cdc_fifo_wr_status_flags_as_defa...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000001111...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_wr_bin_cntr [cdc_fifo_wr_bin_cntr_default]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_wr_logic [cdc_fifo_wr_logic_default]
+Compiling architecture ram32m_v of entity unisim.RAM32M [ram32m_default]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_dmem [cdc_fifo_dmem_default]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_memory [cdc_fifo_memory_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0010")(0,3)\]
+Compiling architecture fdpe_v of entity unisim.FDPE [\FDPE(init='0')\]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_xpm_cdc_async_rst [cdc_fifo_xpm_cdc_async_rst_defau...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10001010")(0,7)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101010101010100000...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_xpm_cdc_single [cdc_fifo_xpm_cdc_single_default]
+Compiling architecture structure of entity xil_defaultlib.\CDC_FIFO_xpm_cdc_single__2\ [\CDC_FIFO_xpm_cdc_single__2_defa...]
+Compiling architecture structure of entity xil_defaultlib.\CDC_FIFO_xpm_cdc_async_rst__1\ [\CDC_FIFO_xpm_cdc_async_rst__1_d...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_reset_blk_ramfifo [cdc_fifo_reset_blk_ramfifo_defau...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_fifo_generator_ramfifo [cdc_fifo_fifo_generator_ramfifo_...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_fifo_generator_top [cdc_fifo_fifo_generator_top_defa...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_fifo_generator_v13_2_5_synth [cdc_fifo_fifo_generator_v13_2_5_...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO_fifo_generator_v13_2_5 [cdc_fifo_fifo_generator_v13_2_5_...]
+Compiling architecture structure of entity xil_defaultlib.CDC_FIFO [cdc_fifo_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101010101010101010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111110010111000...]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111001100100000")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0100010101010101")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10111010")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_rd_fwft [delay_fifo_rd_fwft_default]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_rd_status_flags_ss [delay_fifo_rd_status_flags_ss_de...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111111111111000...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_rd_bin_cntr [delay_fifo_rd_bin_cntr_default]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_rd_logic [delay_fifo_rd_logic_default]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_wr_status_flags_ss [delay_fifo_wr_status_flags_ss_de...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111000011111111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10010000000010010000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_wr_bin_cntr [delay_fifo_wr_bin_cntr_default]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_wr_logic [delay_fifo_wr_logic_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(ram_mode="SDP",read_wi...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_blk_mem_gen_prim_wrapper [delay_fifo_blk_mem_gen_prim_wrap...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_blk_mem_gen_prim_width [delay_fifo_blk_mem_gen_prim_widt...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_blk_mem_gen_generic_cstr [delay_fifo_blk_mem_gen_generic_c...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_blk_mem_gen_top [delay_fifo_blk_mem_gen_top_defau...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_blk_mem_gen_v8_4_4_synth [delay_fifo_blk_mem_gen_v8_4_4_sy...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_blk_mem_gen_v8_4_4 [delay_fifo_blk_mem_gen_v8_4_4_de...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_memory [delay_fifo_memory_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_xpm_cdc_sync_rst [delay_fifo_xpm_cdc_sync_rst_defa...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111111110")(0...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_reset_blk_ramfifo [delay_fifo_reset_blk_ramfifo_def...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_fifo_generator_ramfifo [delay_fifo_fifo_generator_ramfif...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_fifo_generator_top [delay_fifo_fifo_generator_top_de...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_fifo_generator_v13_2_5_synth [delay_fifo_fifo_generator_v13_2_...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO_fifo_generator_v13_2_5 [delay_fifo_fifo_generator_v13_2_...]
+Compiling architecture structure of entity xil_defaultlib.delay_FIFO [delay_fifo_default]
+Compiling architecture implementation of entity work.top_module [top_module_default]
+Compiling architecture behavior of entity work.testbench
+Built simulation snapshot testbench_behav

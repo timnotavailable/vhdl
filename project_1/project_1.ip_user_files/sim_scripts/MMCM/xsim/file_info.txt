@@ -1,0 +1,2 @@
+MMCM_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/MMCM/MMCM_sim_netlist.vhdl,incdir="../../../../project_1.srcs/sources_1/ip/MMCM"
+glbl.v,Verilog,xil_defaultlib,glbl.v

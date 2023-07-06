@@ -1,0 +1,4 @@
+xpm_cdc.sv,systemverilog,xpm,F:/Vivado/Vivado/2020.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../../project_1.srcs/sources_1/ip/MMCM"
+xpm_VCOMP.vhd,vhdl,xpm,F:/Vivado/Vivado/2020.1/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../../project_1.srcs/sources_1/ip/MMCM"
+MMCM_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../project_1.srcs/sources_1/ip/MMCM/MMCM_sim_netlist.vhdl,incdir="../../../../project_1.srcs/sources_1/ip/MMCM"
+glbl.v,Verilog,xil_defaultlib,glbl.v

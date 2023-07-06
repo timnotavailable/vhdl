@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'top_module'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/G/OneDrive/2021ss/fpga2021ss/L7/lecture7/top_module_tb_200MHz.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

@@ -1,0 +1,26 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/ip/delay_FIFO/delay_FIFO_sim_netlist.vhdl" \
+"../../../../project_1.srcs/sources_1/ip/CDC_FIFO/CDC_FIFO_sim_netlist.vhdl" \
+
+vhdl work  \
+"../../../../project_1.srcs/sources_1/ip/ila_selection/sim/ila_selection.vhd" \
+"../../../../project_1.srcs/sources_1/ip/ila_spi/sim/ila_spi.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/ip/MMCM/MMCM_sim_netlist.vhdl" \
+
+vhdl work  \
+"../../../../project_1.srcs/sources_1/new/Pedestal_subtraction.vhd" \
+"../../../../../L5/SPI_STUDENT/SPI_STUDENT/lfsr.vhd" \
+"../../../../../L5/SPI_STUDENT/SPI_STUDENT/signal_generator.vhd" \
+"../../../../../L5/SPI_STUDENT/SPI_STUDENT/SPI_EMULATOR.vhd" \
+"../../../../../L5/SPI_STUDENT/SPI_STUDENT/SPI_MASTER.vhd" \
+"../../../../project_1.srcs/sources_1/new/Signal_selection.vhd" \
+"../../../../../L9/pedestal_calc.vhd" \
+"../../../../project_1.srcs/sources_1/new/signal_detection.vhd" \
+"../../../../../L7/lecture7/top_module.vhd" \
+"../../../../../L7/lecture7/top_module_tb_200MHz.vhd" \
+
+# Do not sort compile order
+nosort

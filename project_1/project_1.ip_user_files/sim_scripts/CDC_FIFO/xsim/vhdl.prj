@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/ip/CDC_FIFO/CDC_FIFO_sim_netlist.vhdl" \
+
+nosort
